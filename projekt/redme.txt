@@ -1,0 +1,55 @@
+Wtyczk - pomiar przewyższeń i odległości
+
+------
+SPIS TREŚCI
+
+1. Funicje i zastosowanie wtyczki
+2. Wymagania systemowe i oprogramowania
+3. Instrukcja instalacji i uruchomiwenia
+4. Wady
+
+------
+1. Funicje i zastosowanie wtyczki
+
+- obiczanie przewyższeń między wybranymi punktami
+- obliczene powierzchni między wybranymi punktami 
+- wyświetlanie wyniku pomiaru powierzchni w róznych jednostkach
+- wyświetlenie liczby wybranych punktów
+- wyświetlanie błędów (np. wybranie zbyt małej ilości punktów)
+
+-----
+2. Wymagania systemowe i oprogramowania
+
+Do zainstalowania niezbędne jest posiadanie systemu windows 
+oraz zainstalowanie następujących programów:
+- QGIS w wersji minimum 3.22.6
+- python w wersji minimum 3.8
+
+-----
+3. Instrukcja instalacji i uruchomiwenia
+
+Instalacjia
+- Otwarcie programu Qgis 
+- wybranie z paska narzędzi opcji "Wtyczki"
+- W oknie po lewej stronie wybrać opcje "Instaluj z pliku ZIP"
+- Wskazanie pluku ZIP z plikami wtyczki i kliknięcie "Zainstaluj wtyczkę"
+- Wtyczka jest zlokalizowana na pasku narzędzi
+
+uruchomienie
+
+- klikamy w ikonę wtyczki
+- wybieramy odpowiednią liczę punktów z wcześniej wgranej wrastwy punktowej
+- (w przypadku obliczania pola powierzchni wybieramy jednostkę)
+- wybieramy funkcję (obliczenie przewyższenia lub pola powierzchni)
+- otzymujemy w oknie wynik
+- w przypadku wybrania zbyt małej liczby punktów program wykaże komunkat:
+"Nieprawidłowa liczba punktów! Wybierz 2/3 punkty!”
+
+-----
+4. Wady
+
+- format danych musi być dokładnie taki sam jak wzorcowy
+- program nie działa na wcześniejszych wersjach oprogramowania
+- możliwość wybierania punktów tylko z jednej warstwy
+
+
